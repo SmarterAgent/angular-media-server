@@ -1,0 +1,29 @@
+{
+  "name": "angular-media-server",
+  "homepage": "https://github.com/SmarterAgent/angular-media-server",
+  "authors": [
+    "Nicolle Cysneiros <nicolle.cysneiros@gmail.com>"
+  ],
+  "description": "Angular directive to add media.smarteragent.com URL to images",
+  "main": "angular-media-server.js",
+  "keywords": [
+    "media",
+    "server"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-preload-image": "*"
+  },
+  "resolutions": {
+    "angular": "^1.6.1"
+  }
+}
