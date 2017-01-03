@@ -21,7 +21,7 @@
       terminal: true,
       priority: 100,
       link: function (scope, element, attrs) {
-        var mediaServerURL = attrs.mediaServerUrl || "https://media.smarteragent.com/unsafe/";
+        var mediaServerURL = attrs.mediaServerUrl
         var defaultImage = attrs.defaultImage;
         var standByMediaServerURL = attrs.standByMediaServerUrl;
 
@@ -51,13 +51,13 @@
         })
       }
     }
-  }]);
+  }])
 
   angular.module('angular-media-server').directive('bgMediaServerUrl', ['preLoader', 'utils', function (preLoader, utils) {
     return {
       restrict: 'A',
       link: function (scope, element, attrs) {
-        var mediaServerURL = attrs.bgMediaServerUrl || "https://media.smarteragent.com/unsafe/";
+        var mediaServerURL = attrs.bgMediaServerUrl
         var defaultImage = attrs.defaultImage;
         var standByMediaServerURL = attrs.standByMediaServerUrl;
 

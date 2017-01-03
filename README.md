@@ -1,6 +1,6 @@
 # Angular Media Server
 
-This is an angular directive that includes media.smarteragent.com URL to an image URL. This directive has an option to define a default image and a "stand by" image while the main image is loaded. The image pre loading module used is available here: https://github.com/RevillWeb/angular-preload-image.
+This is an angular directive that includes the media server URL to an image URL. This directive has an option to define a default image and a "stand by" image while the main image is loaded. The image pre loading module used is available here: https://github.com/RevillWeb/angular-preload-image.
 
 ## Parameters
 | Parameter | Type | Description |
@@ -14,14 +14,8 @@ This is an angular directive that includes media.smarteragent.com URL to an imag
 ## Install
 
 1. Install using bower `bower install https://github.com/SmarterAgent/angular-media-server.git --save`.
-2. Include the javascript file in your project
-```html
-<script src="../bower_components/angular-preload-image/angular-preload-image.js"></script>
-```
-3. Add the module as a dependency to your angular application
-```javascript
-var app = angular.module('MyApp', ['angular-media-server'])
-```
+2. Include the javascript file in your project `<script src="../bower_components/angular-preload-image/angular-preload-image.js"></script>`
+3. Add the module as a dependency to your angular application `var app = angular.module('MyApp', ['angular-media-server'])`
 
 ## Basic Usage
 
