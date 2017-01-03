@@ -10,7 +10,7 @@
     return utils;
 
     function bgImageCSS(imageURL) {
-      return 'background-image': 'url("' + imageURL + '")';
+      return { 'background-image': 'url("' + imageURL + '")' };
     }
   }])
   angular.module('angular-media-server').directive('mediaServerUrl', ['preLoader', 'utils', function (preLoader, utils) {
