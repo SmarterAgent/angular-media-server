@@ -5,7 +5,7 @@
     "Nicolle Cysneiros <nicolle.cysneiros@gmail.com>"
   ],
   "description": "Angular directive to add media.smarteragent.com URL to images",
-  "main": "./angular-media-server.js",
+  "main": ["angular-media-server.js"],
   "keywords": [
     "media",
     "server"
@@ -13,7 +13,6 @@
   "license": "MIT",
   "private": false,
   "ignore": [
-    "**/.*",
     "node_modules",
     "bower_components",
     "test",
